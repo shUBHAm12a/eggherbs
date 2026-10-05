@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Egg & Herb</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="mark" viewBox="0 0 100 100"><path d="M50 8C28 8 10 26 10 48c0 8 3 14 6 19l-9 14 14-6c8 6 18 9 29 9 24 0 43-18 43-40S74 8 50 8z" fill="currentColor"/><ellipse cx="50" cy="48" rx="19" ry="23" fill="#fff"/><circle cx="50" cy="52" r="10" fill="#ffb81c"/></symbol>
+<symbol id="plate" viewBox="0 0 400 400"><circle cx="200" cy="205" r="185" fill="#fff"/><circle cx="200" cy="205" r="150" fill="none" stroke="#f2e6b8" stroke-width="3"/><path d="M85 190c-20-60 40-110 105-100 70-12 130 30 120 100 20 50-30 110-95 105-30 25-110 20-130-35-30-20-30-50 0-70z" fill="#fffdf6" stroke="#f2e6b8" stroke-width="3"/><g class="yolk"><circle cx="200" cy="195" r="68" fill="#ffb81c"/><circle cx="200" cy="195" r="68" fill="none" stroke="#e8920c" stroke-width="3"/><ellipse cx="178" cy="170" rx="18" ry="11" fill="#fff" opacity=".55" transform="rotate(-30 178 170)"/></g><g fill="#2f9e44"><path d="M95 120q25-30 45-5-20 25-45 5z"/><path d="M290 300q30-5 40 25-30 5-40-25z"/><path d="M120 300q-5-30 25-35 5 30-25 35z"/><path d="M300 110q20-25 45-5-20 25-45 5z"/></g><g fill="#c8321b"><circle cx="240" cy="262" r="5"/><circle cx="150" cy="248" r="4"/><circle cx="262" cy="150" r="4"/></g></symbol>
+</defs></svg>
+
+<header>
+<a href="#home" class="brand"><svg width="44" height="44" style="color:#0a0a0a;background:var(--y);border-radius:50%;padding:5px"><use href="#mark"/></svg><span>The Egg &amp; Herb</span></a>
+<button class="burger" id="bg" aria-label="Menu">Menu</button>
+<nav id="nv"><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+<section class="page" id="home">
+<div class="hero">
+<div class="hl">
+<span class="tag">Surat street style</span>
+<h1><span><i>Eggs,</i></span><span><i>done the</i></span><span><i>desi way.</i></span></h1>
+<p>Green gravy, red gravy, half fry, full fry. Every dish here starts with an egg and ends with something you will want to tell someone about.</p>
+<div class="row"><a class="btn" href="#menu">See the menu</a><a class="btn alt" href="#contact">Find us</a><span class="price">from $9.99</span></div>
+</div>
+<div class="hr">
+<svg class="egg" viewBox="0 0 400 400"><use href="#plate"/></svg>
+<div class="flag f1"><b>27</b>Main dishes</div><div class="flag f2"><b>2</b>Chutneys</div><div class="flag f3"><b>12</b>Starters</div>
+<div class="ring">Follow us, tag us, get 5% off</div>
+</div></div>
+<div class="mq" aria-hidden="true"><div>Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp; Lagse var pan avse maja &nbsp;&nbsp;•&nbsp;&nbsp;</div></div>
+<div class="sec"><h2 class="rv">Start with these.</h2><p class="lead rv">Three plates people order again and again.</p>
+<div class="picks">
+<div class="pick rv"><h3>Green Fry</h3><p>Half-fried egg under a rich, cooked green curry. The classic starter.</p><b>$11.99</b></div>
+<div class="pick rv"><h3>Ghari 4 Eggs</h3><p>Inspired by Surat's ghari flavours: rich gravy, butter and spice, served with two buns.</p><b>$27.99</b></div>
+<div class="pick rv"><h3>Omelette Cutlets</h3><p>Boiled egg with yolk, spices and veggies, topped with cheese.</p><b>$13.99</b></div>
+</div></div>
+<div class="band"><div class="sec cols">
+<div class="rv"><h2>Gravy first, always.</h2><p class="lead">Our mains come in green or red gravy, built from fresh coriander, green garlic and slow-cooked masalas, and served with two soft buns for mopping up every last bit.</p><br><a class="btn" href="#menu">Browse mains</a></div>
+<div class="stat rv"><div><b>2</b>gravies: green and red</div><div><b>2</b>buns with every main</div><div><b>5%</b>off when you tag us</div><div><b>3</b>paneer dishes for veg days</div></div>
+</div></div>
+</section>
+
+<section class="page" id="menu">
+<div class="mh"><h1>The Menu</h1><p style="max-width:48ch;margin-top:12px">Pick a section. Prices in dollars.</p></div>
+<div class="tabs" id="tabs"></div>
+<div class="list" id="list"></div>
+</section>
+
+<section class="page" id="about">
+<div class="sec cols">
+<div class="rv"><h2>An egg is never just an egg.</h2><p class="lead">The Egg &amp; Herb is built on one idea: take the street-food flavours of Surat and give the humble egg the main role. Boiled, half-fried, folded into an omelette or simmered in gravy.</p><br><p class="lead">Each dish leans on fresh herbs and a hot tadka at the end. Mains arrive with buns, because good gravy deserves something to carry it.</p></div>
+<svg class="egg2 rv" viewBox="0 0 400 400"><use href="#plate"/></svg>
+</div>
+<div class="quote">Lagse var pan avse maja.</div>
+<div class="sec"><h2 class="rv">What we cook with</h2>
+<div class="picks"><div class="pick rv"><h3>Fresh herbs</h3><p>Coriander, green garlic and green chilli go into the green gravy every day.</p></div><div class="pick rv"><h3>Real butter</h3><p>Makhan Mari, Laziz and Ghari get their richness from generous butter and cream.</p></div><div class="pick rv"><h3>A hot tadka</h3><p>Ghee, garlic and dry red chilies poured over at the end for the final punch.</p></div></div></div>
+</section>
+
+<section class="page" id="contact">
+<div class="sec cols">
+<div class="rv"><h2>Say hello.</h2><p class="lead" style="margin-bottom:24px">Questions, catering or feedback. Send a note and we will reply.</p>
+<form id="fm"><div><label for="n">Name</label><input id="n" required></div><div><label for="e">Email</label><input id="e" type="email" required></div><div><label for="m">Message</label><textarea id="m" rows="4" required></textarea></div><button class="btn" type="submit">Send message</button><div class="ok" id="ok">Thanks. We got your message.</div></form></div>
+<div class="info rv">
+<div><h3>Find us</h3><p>Add your restaurant address here</p></div>
+<div><h3>Call</h3><p>Add your phone number here</p></div>
+<div style="background:var(--y);color:#0a0a0a"><h3>Instagram</h3><p>@the_egg_and_herb<br>Follow us, make a video, tag us, share it and get 5% off.</p></div>
+</div></div>
+</section>
+</main>
+
+<footer><div class="brand">The Egg &amp; Herb</div><div>Follow us <a href="#contact">@the_egg_and_herb</a></div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
